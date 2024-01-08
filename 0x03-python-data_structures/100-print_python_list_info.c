@@ -1,9 +1,7 @@
-#include <stdio.h>
 #include <Python.h>
 /**
  * print_python_list_info - shows info about Python lists
- * @p: object
- *
+ * @p: Object
  * Return: 0
  */
 void print_python_list_info(PyObject *p)
