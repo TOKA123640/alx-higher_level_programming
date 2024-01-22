@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <python.h>
+
 /*
  * File: 103-python.c
  * Auth: Type Your Name Here
