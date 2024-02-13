@@ -25,7 +25,7 @@ class Square(Rectangle):
         self.width = value
         self.height = value
 
-        def __update(self, id=None, size=None, x=None, y=None):
+    def __update(self, id=None, size=None, x=None, y=None):
         '''Internal method that updates instance attributes via */**args.'''
         if id is not None:
             self.id = id
