@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo 'input commit massege'
+read ${ver}
+
+git add .
+git commit -m '${ver}'
+git push
